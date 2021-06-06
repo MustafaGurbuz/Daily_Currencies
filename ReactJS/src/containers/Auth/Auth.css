@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-image: url('../../assets//images/bg2.jpg');
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+}
+
+.Header {
+  border: 2px solid #ccc;
+  color: white;
+  opacity: 0.8;
+  box-shadow: 0px 14px 20px rgba(34, 35, 58, 0.7);
+  background-image: linear-gradient(rgb(139, 146, 209),rgb(21, 17, 70));
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.ImageOne {
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: 75% 75%;
+  background-image: url('../../assets//images/register2.jpg');
+  position: relative;
+  margin: auto;
+}
+
+.ImageTwo {
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url('../../assets//images/login1.png');
+  background-color: transparent;
+  position: relative;
+  margin: auto;
+}
+
+.Auth {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    background: #ffffff;
+    opacity: 0.8;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.7);
+    padding: 20px 25px 25px 20px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    transition: all .3s;
+}
+
+@media (min-width: 600px) {
+    .Auth {
+        width: 500px;
+    }
+}

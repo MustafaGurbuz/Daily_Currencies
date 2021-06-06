@@ -1,0 +1,59 @@
+.containerr {
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin-left: 50px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .containerOner{
+    width: 550px;
+    height: 550px;
+  }
+  
+  .containerTwor{
+    width: 550px;
+    height: 550px;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) and (max-width: 1200px) {
+    .containerr{
+      display: block;
+      width: 400px;
+      height: 400px;
+    }
+  }
+  
+  @media (max-width:625px){
+    .containerOner{
+      width: 400px;
+      height: 400px;
+    }
+    .containerTwor{
+      width: 400px;
+      height: 400px;
+    }
+  }
+  
+  @media (max-width:400px){
+    .containerOner{
+      width: 250px;
+      height: 250px;
+    }
+    .containerTwor{
+      width: 250px;
+      height: 250px;
+    }
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

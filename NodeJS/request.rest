@@ -1,0 +1,31 @@
+POST http://localhost:3000/api/user/register
+Content-Type: application/json
+
+{
+    "email": "software@test.com",
+    "password": "testdeneme"
+}
+
+###
+
+POST http://localhost:3000/api/user/login
+Content-Type: application/json
+
+{
+    "email": "software123@test.com",
+    "password": "testhash123"
+}
+
+###
+
+POST http://localhost:3000/api/user/login
+Content-Type: application/json
+
+{
+    "email": "test@test.com",
+    "password": "deneme"
+}
+
+###
+GET http://localhost:3000/api/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNvZnR3YXJlMTIzQHRlc3QuY29tIiwiX2lkIjoiNjA2OTlkYzYxYTcxNzcxNWE4MGMwNmQ4IiwiYWNjZXNzVG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKbGJXRnBiQ0k2SW5OdlpuUjNZWEpsTVRJelFIUmxjM1F1WTI5dElpd2ljR0Z6YzNkdmNtUWlPaUowWlhOMGFHRnphREV5TXlJc0ltbGhkQ0k2TVRZeE56VTBOakE1TWl3aVpYaHdJam94TmpFM05UUTJNVEEzZlEuRVd0NTQ5azNhV3BvMFBNMmRxZXVxOGhudzEzN2VRTHhSemJSeHhyR05hVSIsInJlZnJlc2hUb2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpsYldGcGJDSTZJbk52Wm5SM1lYSmxNVEl6UUhSbGMzUXVZMjl0SWl3aWNHRnpjM2R2Y21RaU9pSjBaWE4wYUdGemFERXlNeUlzSW1saGRDSTZNVFl4TnpVME5qQTVNaXdpWlhod0lqb3hOakU0TVRVd09Ea3lmUS4wMmdnNWg3QVdhdmRNcnRQc2lWVUpnR1hEcEZLNkcxRGJJVGhCN3NuQ0JFIiwiaWF0IjoxNjE3NTQ2MDkyLCJleHAiOjE2MTc1NDk2OTJ9.GjkTJwPbjDO3Fky0tMmH8CrgCS_mz0YIkyizr4tLBHk

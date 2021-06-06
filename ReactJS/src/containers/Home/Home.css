@@ -1,0 +1,21 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-image: url('../../assets//images/bg3.png');
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+.Home {
+    background-color: white;
+    opacity: 0.7;
+   text-align: center;
+   padding: 5px;
+}
+
+p:last-child {
+    color: red !important;
+}
